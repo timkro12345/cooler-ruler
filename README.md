@@ -54,12 +54,12 @@ I learned many concepts, and there are helpful tutorials out there to explain th
 
 
 # My Pins:
-Temp Sensor - 17
-Heater - 2
-Red button (set point up) -12
-Blue button (set point down) - 13
-Humidity - 21
-Audio - 25
+##### Temp Sensor - 17
+##### Heater - 2
+##### Red button (set point up) -12
+##### Blue button (set point down) - 13
+##### Humidity - 21
+##### Audio - 25
 
 
 # References
