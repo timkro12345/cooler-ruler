@@ -10,14 +10,14 @@ My farmer friend spent the winter using old cooler panels (free) and making an i
 
 # Features
 
-Setpoint adjustable by console buttons
-Wifi transmission of data to ThingSpeak cloud server
-Alarms for too hot or too cold
-Humidity measurement
-Outside air temperature measurement
-Inside air temperature measurement
-Defrost mode if fins freeze up
-Graphing display and messages
+##### Setpoint adjustable by console buttons
+##### Wifi transmission of data to ThingSpeak cloud server
+##### Alarms for too hot or too cold
+##### Humidity measurement
+##### Outside air temperature measurement
+##### Inside air temperature measurement
+##### Defrost mode if fins freeze up
+##### Graphing display and messages
 
 # Materials
 
@@ -64,14 +64,14 @@ I learned many concepts, and there are helpful tutorials out there to explain th
 
 # References
 Much of the initial understanding came from the ColdSnap project.
-https://github.com/vgeorge/coldsnap
-https://web.archive.org/web/20160211232038/http://people.umass.edu:80/~dac/projects/ColdSnap/ColdSnap.html
-https://farmhack.org/archive/coldsnap-air-conditioner-override-controller
-https://www.raspberrypi.org/forums/viewtopic.php?t=141686
-https://cdn.hackaday.io/files/269911154782944/Heltec_WIFI-LoRa-32_DiagramPinout.jpg
-https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
-https://github.com/gadjetnut/heltec-esp32-mqtt
-https://randomnerdtutorials.com/esp32-multiple-ds18b20-temperature-sensors/
-https://randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide/
-https://randomnerdtutorials.com/esp32-thingspeak-publish-arduino/
-https://circuitdigest.com/microcontroller-projects/esp32-based-audio-player
+##### https://github.com/vgeorge/coldsnap
+##### https://web.archive.org/web/20160211232038/http://people.umass.edu:80/~dac/projects/ColdSnap/ColdSnap.html
+##### https://farmhack.org/archive/coldsnap-air-conditioner-override-controller
+##### https://www.raspberrypi.org/forums/viewtopic.php?t=141686
+##### https://cdn.hackaday.io/files/269911154782944/Heltec_WIFI-LoRa-32_DiagramPinout.jpg
+##### https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series
+##### https://github.com/gadjetnut/heltec-esp32-mqtt
+##### https://randomnerdtutorials.com/esp32-multiple-ds18b20-temperature-sensors/
+##### https://randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide/
+##### https://randomnerdtutorials.com/esp32-thingspeak-publish-arduino/
+##### https://circuitdigest.com/microcontroller-projects/esp32-based-audio-player
