@@ -2,13 +2,13 @@
 Arduino ESP32 Kool-bot substitute
 
 
-#Background
+# Background
 
 I'm a beginner at microcontrollers, but familiar with electricity, and I enjoy being frugal especially if it will help others.  Farmer friends had been elated at Cool-Bots, which costs $350 and turns an air conditioner into a cooler.  I looked at what these products did and was surprised at the cost for how little it is.  I set out to do it cheaper, with greater functionality.
 
 My farmer friend spent the winter using old cooler panels (free) and making an insulated room in an unheated basement.  There was a little window to the outside, and he did a great job installing the door.  So there is our walk-in cooler.
 
-#Features
+# Features
 
 Setpoint adjustable by console buttons
 Wifi transmission of data to ThingSpeak cloud server
@@ -19,7 +19,7 @@ Inside air temperature measurement
 Defrost mode if fins freeze up
 Graphing display and messages
 
-#Materials
+# Materials
 
 Embarking on my first microprocessor project, I had to buy a quantity of basic parts like wires, resistors, and buttons.  So the cost of my second one would be less than the first.  I also learned lessons that I'll pass on.  But for the sake of being able to create a workable project, I'll describe the materials I used:
 
@@ -43,7 +43,7 @@ I bought a MCIGICM 400 Points Solderless Breadboard which I used to play with.  
 
 I learned that the ESP32 is superior to the ESP8266, being newer.  Also I learned that there are many configurations of the ESP32 microprocessor, so depending on what board you get, your available input/output pins will be different.  So there may be a better board out there for this project, but you will have to do the research to find out what pins to use.  And I'll mention again that if you get a different board, try to find one with headers soldered on already.
 
-#Concepts
+# Concepts
 I learned many concepts, and there are helpful tutorials out there to explain these to a first-timer like me.  I'll just mention them here:
 1. Buttons need pull-up resistors.  4.7K was recommended, but I didn't have.  10K worked fine.
 2. Buttons need to be debounced to work correctly.
@@ -53,7 +53,7 @@ I learned many concepts, and there are helpful tutorials out there to explain th
 6. A 19V powersupply with 3 x 100-ohm resistors in series worked very well.  You could use 12V with 2 resistors, and maybe 5V with 1.  This gets the temperature of the heater up to around 80F. 
 
 
-#My Pins:
+# My Pins:
 Temp Sensor - 17
 Heater - 2
 Red button (set point up) -12
@@ -62,7 +62,7 @@ Humidity - 21
 Audio - 25
 
 
-#References
+# References
 Much of the initial understanding came from the ColdSnap project.
 https://github.com/vgeorge/coldsnap
 https://web.archive.org/web/20160211232038/http://people.umass.edu:80/~dac/projects/ColdSnap/ColdSnap.html
